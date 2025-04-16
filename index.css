@@ -1,0 +1,106 @@
+body {
+    background-color: #131D41;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.a-nav:hover {
+    opacity: 0.8;
+}
+
+.a-learn {
+    color: #ff5c00;
+    text-decoration: none;
+}
+
+/* LOGO */
+.p-logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* TEXT UTAMA */
+.p-hero {
+    font-size: 54px;
+    margin: 0;
+    color: white;
+}
+
+/* BUTTON */
+.btn-nav {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn-nav:hover {
+    opacity: 1;
+}
+
+.btn-hero {
+    background-color: #ff5c00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+/* ICON + JAM SECTION */
+.icon-jam {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.p-jam-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.p-jam-deskripsi {
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 5px;
+    max-width: 400px;
+}
+
+/* PARAGRAF UMUM */
+p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
